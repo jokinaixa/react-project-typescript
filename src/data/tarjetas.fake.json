@@ -1,0 +1,910 @@
+{
+  "tarjetas": [
+    {
+      "alias": "Visa Oro sin impago",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": true,
+      "comercioSeguro": "enVigor",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA ORO",
+      "disponible": {
+        "cantidad": 500.0,
+        "moneda": "EUR"
+      },
+      "avisos": ["fa4bf5b9-e96a-49cf-8caa-0150353e026b", "2" , "bdd1cffb-714f-4958-862b-2757e6f2b8d0"],
+      "dispuesto": {
+        "cantidad": 0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": false,
+      "fechaCaducidad": "04/2017",
+      "grupo": "2",
+      "id": "29",
+      "imagen": "oro.png",
+      "impagado": {
+        "cantidad": 0,
+        "moneda": "EUR"
+      },
+      "limite": {
+        "cantidad": 500.0,
+        "moneda": "EUR"
+      },
+      "numero": "4444773322225533",
+      "permisos": [
+        {
+          "nombre": "extractos"
+        },
+        {
+          "nombre": "serNuevaTarjetaSticker"
+        },
+        {
+          "nombre": "bloquearTarjeta"
+        },
+        {
+          "nombre": "compraElectronicaSegura"
+        },
+        {
+          "nombre": "recargaDeMovil"
+        },
+        {
+          "nombre": "traspasoDestinoDeAhorroClick"
+        },
+        {
+          "nombre": "cambiarEstado"
+        },
+        { "nombre": "consultarEstado" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "periodo": "mensual",
+      "producto": "VISA ORO",
+      "nombreBeneficiario": "",
+      "numeroBeneficiarios": 2,
+      "relacion": "titular",
+      "tieneSticker": false,
+      "tienePagoMovil": true,
+      "tieneApplePay": true,
+      "tipo": "credito",
+      "tipoPago": "Desconocido",
+      "tipoProducto": "ORO"
+    },
+    {
+      "alias": "Visa Débito Electrón",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": true,
+      "comercioSeguro": "noTiene",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA ELECTRÓN",
+      "dispuesto": {
+        "cantidad": 0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendidaLimitada",
+      "disponible": {
+        "cantidad": 0,
+        "moneda": "EUR"
+      },
+      "esContactless": false,
+      "fechaCaducidad": "03/2017",
+      "grupo": "2",
+      "id": "30",
+      "imagen": "electron.png",
+      "numero": "1234123412341234",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" },
+        { "nombre": "modificarTarjetaSticker" },
+        { "nombre": "activarSticker" }
+      ],
+      "personalizacion": "sinPersonalizar",
+      "producto": "VISA ELECTRÓN",
+      "nombreBeneficiario": "",
+      "numeroBeneficiarios": 2,
+      "relacion": "titular",
+      "tieneSticker": false,
+      "tienePagoMovil": false,
+      "tieneApplePay": true,
+      "tipo": "debito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "ELE"
+    },
+    {
+      "alias": "Visa Oro sin poder operar",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": true,
+      "comercioSeguro": "enVigor",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA ORO",
+      "disponible": {
+        "cantidad": 1000.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 200.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendidaLimitada",
+      "esContactless": false,
+      "fechaCaducidad": "09/2016",
+      "grupo": "2",
+      "id": "54",
+      "imagen": "clasicago.png",
+      "impagado": {
+        "cantidad": 200.0,
+        "moneda": "EUR"
+      },
+      "limite": {
+        "cantidad": 1200.0,
+        "moneda": "EUR"
+      },
+      "numero": "1234123412343333",
+      "permisos": [
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" },
+        { "nombre": "tenerSticker" },
+        { "nombre": "tenerPagoMovil" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "VISA ORO",
+      "periodo": "mensual",
+      "nombreBeneficiario": "Marta Ropero Tortajada",
+      "numeroBeneficiarios": 1,
+      "relacion": "beneficiario",
+      "tieneSticker": true,
+      "tienePagoMovil": false,
+      "tieneApplePay": false,
+      "tipo": "credito",
+      "tipoPago": "Desconocido",
+      "tipoProducto": "ORO"
+    },
+    {
+      "alias": "Visa Oro sin poder operar 2",
+      "aliasEditable": true,
+      "avisos": [],
+      "cuentaAsociada": "ES3030351234341234567801",
+      "descripcion": "VISA ORO",
+      "categoriaId": "10",
+      "desactivada": false,
+      "grupo": "tarjetas",
+      "estado": "apagada",
+      "id": "549",
+      "imagen": "clasicago.png",
+      "numero": "1234123412343333",
+      "disponible": {
+        "cantidad": -1472.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 2222.0,
+        "moneda": "EUR"
+      },
+      "impagado": {
+        "cantidad": 2222,
+        "moneda": "EUR"
+      },
+      "limite": {
+        "cantidad": 750.0,
+        "moneda": "EUR"
+      },
+      "numeroBeneficiarios": 1,
+      "nombreBeneficiario": "Amaia",
+      "permisos": [
+        {
+          "nombre": "extractos"
+        },
+        {
+          "nombre": "activarTarjeta"
+        },
+        {
+          "nombre": "traspasoOrigen"
+        },
+        {
+          "nombre": "traspasoDestino"
+        },
+        {
+          "nombre": "bloquearTarjeta"
+        },
+        {
+          "nombre": "cambiarEstado"
+        },
+        {
+          "nombre": "comprasAplazables"
+        },
+        {
+          "nombre": "compraElectronicaSegura"
+        },
+        {
+          "nombre": "recargaDeMovil"
+        },
+        {
+          "nombre": "tenerSticker"
+        },
+        {
+          "nombre": "personalizarTarjeta"
+        },
+        { "nombre": "consultarEstado" }
+      ],
+      "producto": "ORO",
+      "tieneSticker": true,
+      "tienePagoMovil": false,
+      "tipo": "credito",
+      "titularidadId": "titular",
+      "esProductoParticular": false,
+      "nombreProducto": "Visa Oro",
+      "visible": true,
+      "entidad": {
+        "id": "3035",
+        "iconoUrl": "https://lkweb.desa.net/entidades/3035-65.png"
+      }
+    },
+    {
+      "alias": "VISA AKTIBA",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": true,
+      "comercioSeguro": "bloqueado",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA AKTIBA",
+      "disponible": {
+        "cantidad": 1600.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": -600.0,
+        "moneda": "EUR"
+      },
+      "gastado": {
+        "cantidad": 300.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": false,
+      "fechaCaducidad": "07/2020",
+      "grupo": "2",
+      "id": "55",
+      "imagen": "aktiba.png",
+      "impagado": {
+        "cantidad": 0.0,
+        "moneda": "EUR"
+      },
+      "limite": {
+        "cantidad": 1000.0,
+        "moneda": "EUR"
+      },
+      "numero": "4444123443219999",
+      "permisos": [
+        {
+          "nombre": "activarTarjeta"
+        },
+        {
+          "nombre": "extractos"
+        },
+        {
+          "nombre": "bloquearTarjeta"
+        },
+        {
+          "nombre": "comprasAplazables"
+        },
+        {
+          "nombre": "compraElectronicaSegura"
+        },
+        {
+          "nombre": "recargaDeMovil"
+        },
+        {
+          "nombre": "traspasoOrigen"
+        },
+        {
+          "nombre": "traspasoDestino"
+        },
+        {
+          "nombre": "tenerSticker"
+        },
+        {
+          "nombre": "tenerPagoMovil"
+        },
+        {
+          "nombre": "serNuevaTarjetaSticker"
+        },
+        {
+          "nombre": "traspasoDestinoDeAhorroClick"
+        },
+        {
+          "nombre": "cambiarEstado"
+        },
+        { "nombre": "consultarEstado" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "periodo": "semanal",
+      "producto": "VISA AKTIBA",
+      "nombreBeneficiario": "Manuel Sanz Cardona",
+      "numeroBeneficiarios": 1,
+      "relacion": "titular",
+      "tieneSticker": false,
+      "tienePagoMovil": false,
+      "tieneApplePay": false,
+      "tipo": "debito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "TLS"
+    },
+    {
+      "alias": "VISA ELECTRÓN (Bloqueada)",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "cuentaAsociada": "ES2330350064200640004929",
+      "desactivada": false,
+      "descripcion": "VISA ELECTRÓN",
+      "disponible": {
+        "cantidad": 778817.88,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 0.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "bloqueada",
+      "esContactless": false,
+      "fechaCaducidad": "02/2007",
+      "grupo": "2",
+      "id": "63",
+      "imagen": "ANI006.jpg",
+      "numero": "4508274000669002",
+      "permisos": [
+        {
+          "nombre": "bloquearTarjeta"
+        },
+        {
+          "nombre": "compraElectronicaSegura"
+        },
+        {
+          "nombre": "recargaDeMovil"
+        },
+        {
+          "nombre": "tenerPagoMovil"
+        },
+        {
+          "nombre": "cambiarEstado"
+        },
+        { "nombre": "consultarEstado" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "nombreBeneficiario": "",
+      "numeroBeneficiarios": 2,
+      "producto": "VISA ELECTRÓN",
+      "relacion": "titular",
+      "tieneSticker": false,
+      "tienePagoMovil": false,
+      "tieneApplePay": true,
+      "tipo": "debito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "ELE",
+      "comercioSeguro": "noTiene"
+    },
+    {
+      "alias": "TAG VIA T (sin cambiar estado)",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "noTiene",
+      "cuentaAsociada": "ES7466243545400981234329",
+      "desactivada": false,
+      "descripcion": "TAG VIA T",
+      "dispuesto": {
+        "cantidad": 0.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": false,
+      "fechaCaducidad": "07/2024",
+      "grupo": "2",
+      "id": "31",
+      "imagen": "viat.png",
+      "numero": "6039758500060004",
+      "permisos": [
+        { "nombre": "extractos" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "consultarEstado" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "TAG VIA T",
+      "nombreBeneficiario": "IÑAKI AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "relacion": "titular",
+      "tieneSticker": false,
+      "tienePagoMovil": false,
+      "tieneApplePay": false,
+      "tipo": "viaTCredito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "TVT"
+    },
+    {
+      "alias": "TAG VIA T",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "cuentaAsociada": "ES0612371238340215671801",
+      "desactivada": false,
+      "descripcion": "TAG VIA T",
+      "disponible": {
+        "cantidad": 5489.33,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 0.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": false,
+      "fechaCaducidad": "02/2007",
+      "grupo": "2",
+      "id": "65",
+      "imagen": "viat.png",
+      "numero": "6039752504623008",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "bloquearTarjeta" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "TELEPEAJE",
+      "relacion": "titular",
+      "nombreBeneficiario": "JON AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "tieneSticker": false,
+      "tienePagoMovil": false,
+      "tieneApplePay": false,
+      "tipo": "viaTDebito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "TVT",
+      "comercioSeguro": "noTiene"
+    },
+    {
+      "alias": "Visa Clásica",
+      "aliasEditable": false,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "noTiene",
+      "cuentaAsociada": "ES0012341234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA CLASICA",
+      "disponible": {
+        "cantidad": 1234.33,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 50.22,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": false,
+      "fechaCaducidad": "04/2016",
+      "grupo": "2",
+      "id": "110",
+      "imagen": "ani002.jpg",
+      "impagado": {
+        "cantidad": 0,
+        "moneda": "EUR"
+      },
+      "limite": {
+        "cantidad": 1500,
+        "moneda": "EUR"
+      },
+      "numero": "1111 2222 3333 4444",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" },
+        { "nombre": "tenerSticker" },
+        { "nombre": "serNuevaTarjetaSticker" }
+      ],
+      "personalizacion": "personalizada",
+      "nombreBeneficiario": "MARIO AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "periodo": "mensual",
+      "producto": "VISA CLASICA",
+      "relacion": "beneficiario",
+      "tieneSticker": true,
+      "tienePagoMovil": false,
+      "tieneApplePay": true,
+      "tipo": "credito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "CLA"
+    },
+    {
+      "alias": "VISA CLASICA",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "cuentaAsociada": "ES9082745233321538678913",
+      "desactivada": false,
+      "descripcion": "VISA CLASICA",
+      "disponible": {
+        "cantidad": 1224.04,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 775.96,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": true,
+      "fechaCaducidad": "10/2017",
+      "grupo": "2",
+      "id": "109",
+      "imagen": "clasica.png",
+      "impagado": {
+        "cantidad": 0.0,
+        "moneda": "EUR"
+      },
+      "limite": {
+        "cantidad": 2000.0,
+        "moneda": "EUR"
+      },
+      "numero": "4548592567926008",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "modificarTarjetaSticker" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" },
+        { "nombre": "tenerPagoMovil" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "VISA CLASICA",
+      "periodo": "mensual",
+      "relacion": "beneficiario",
+      "nombreBeneficiario": "LUIS AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "tieneSticker": true,
+      "tienePagoMovil": true,
+      "tieneApplePay": true,
+      "tipo": "credito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "CLA",
+      "comercioSeguro": "noTiene",
+      "avisos": ["2"]
+    },
+    {
+      "alias": "Tarjeta cancelada",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "noTiene",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": true,
+      "descripcion": "VISA ELECTRÓN",
+      "dispuesto": {
+        "cantidad": 0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": false,
+      "fechaCaducidad": "03/2017",
+      "grupo": "2",
+      "id": "20",
+      "imagen": "electron.png",
+      "numero": "1234123412341234",
+      "permisos": [
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" },
+        { "nombre": "modificarTarjetaSticker" },
+        { "nombre": "activarSticker" }
+      ],
+      "personalizacion": "sinPersonalizar",
+      "producto": "VISA ELECTRÓN",
+      "nombreBeneficiario": "MIGUEL AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "relacion": "titular",
+      "tieneSticker": true,
+      "tienePagoMovil": false,
+      "tieneApplePay": false,
+      "tipo": "debito",
+      "tipoPago": "desconocido",
+      "tipoProducto": "ELE"
+    },
+    {
+      "alias": "Visa Oro II",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "enVigor",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA ORO",
+      "disponible": {
+        "cantidad": 1000.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 200.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": true,
+      "fechaCaducidad": "09/2020",
+      "grupo": "2",
+      "id": "56",
+      "imagen": "oro.png",
+      "limite": {
+        "cantidad": 3000.0,
+        "moneda": "EUR"
+      },
+      "numero": "1234123412343332",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "VISA ORO",
+      "periodo": "mensual",
+      "nombreBeneficiario": "CARMEN AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "relacion": "titular",
+      "tieneSticker": true,
+      "tienePagoMovil": true,
+      "tieneApplePay": false,
+      "tipo": "credito",
+      "tipoPago": "Desconocido",
+      "tipoProducto": "ORO"
+    },
+    {
+      "alias": "Visa Oro III",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "enVigor",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA ORO",
+      "disponible": {
+        "cantidad": 1000.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 200.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": true,
+      "fechaCaducidad": "09/2020",
+      "grupo": "2",
+      "id": "57",
+      "imagen": "oro.png",
+      "limite": {
+        "cantidad": 9000.0,
+        "moneda": "EUR"
+      },
+      "numero": "1234123412343334",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "VISA ORO",
+      "nombreBeneficiario": "ENRIQUE AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "periodo": "mensual",
+      "relacion": "titular",
+      "tieneSticker": true,
+      "tienePagoMovil": true,
+      "tieneApplePay": false,
+      "tipo": "credito",
+      "tipoPago": "Desconocido",
+      "tipoProducto": "ORO"
+    },
+    {
+      "alias": "Visa Oro IV",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "enVigor",
+      "cuentaAsociada": "ES3030351234341234567890",
+      "desactivada": false,
+      "descripcion": "VISA ORO",
+      "disponible": {
+        "cantidad": 1000.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 200.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": true,
+      "fechaCaducidad": "09/2021",
+      "grupo": "2",
+      "id": "58",
+      "imagen": "oro.png",
+      "limite": {
+        "cantidad": 8000.0,
+        "moneda": "EUR"
+      },
+      "numero": "1234123412343335",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "VISA ORO",
+      "nombreBeneficiario": "RUBEN AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "periodo": "mensual",
+      "relacion": "titular",
+      "tieneSticker": true,
+      "tienePagoMovil": true,
+      "tieneApplePay": false,
+      "tipo": "credito",
+      "tipoPago": "Desconocido",
+      "tipoProducto": "ORO"
+    },
+    {
+      "alias": "Visa Oro AGREGADA",
+      "aliasEditable": true,
+      "validaFirmaOtpReforzada": false,
+      "comercioSeguro": "enVigor",
+      "cuentaAsociada": "ES3020211234341234567891",
+      "desactivada": false,
+      "descripcion": "VISA ORO",
+      "disponible": {
+        "cantidad": 1000.0,
+        "moneda": "EUR"
+      },
+      "dispuesto": {
+        "cantidad": 200.0,
+        "moneda": "EUR"
+      },
+      "esMorosa": false,
+      "estaCaducada": false,
+      "estaReemitida": false,
+      "estado": "encendida",
+      "esContactless": true,
+      "fechaCaducidad": "09/2021",
+      "grupo": "2",
+      "id": "CC1258",
+      "imagen": "oro.png",
+      "limite": {
+        "cantidad": 8000.0,
+        "moneda": "EUR"
+      },
+      "numero": "1234123412343335",
+      "permisos": [
+        { "nombre": "cambiarEstado" },
+        { "nombre": "consultarEstado" },
+        { "nombre": "extractos" },
+        { "nombre": "activarTarjeta" },
+        { "nombre": "traspasoOrigen" },
+        { "nombre": "traspasoDestino" },
+        { "nombre": "bloquearTarjeta" },
+        { "nombre": "comprasAplazables" },
+        { "nombre": "compraElectronicaSegura" },
+        { "nombre": "recargaDeMovil" }
+      ],
+      "personalizacion": "noPersonalizable",
+      "producto": "VISA ORO",
+      "nombreBeneficiario": "RUBEN AZPEITIA BASABE",
+      "numeroBeneficiarios": 1,
+      "periodo": "mensual",
+      "relacion": "titular",
+      "tieneSticker": true,
+      "tienePagoMovil": true,
+      "tieneApplePay": false,
+      "tipo": "credito",
+      "tipoPago": "Desconocido",
+      "tipoProducto": "ORO"
+    }
+  ],
+  "avisos": [
+    {
+      "id": "fa4bf5b9-e96a-49cf-8caa-0150353e026b",
+      "mensaje": "Esta tarjeta ha superado el 80% del límite de crédito mensual",
+      "orden": 1,
+      "severidad": "error",
+      "fechaAlta": "2019-07-01T09:40:22Z",
+      "tipo": "mensaje"
+    },
+    {
+      "id": "2",
+      "mensaje": "Mensaje de warning antiguo de tarjetas",
+      "orden": 2,
+      "severidad": "warning",
+      "fechaAlta": "2017-07-01T09:40:22Z",
+      "tieneDetalle": true,
+      "tipo": "mensaje"
+    },
+    {
+      "id": "bdd1cffb-714f-4958-862b-2757e6f2b8d0",
+      "mensaje": "Mensaje de warning de aviso de tarjetas ",
+      "orden": 3,
+      "severidad": "warning",
+      "fechaAlta": "2019-09-01T09:40:22Z",
+      "tipo": "mensaje"
+    }
+  ]
+}

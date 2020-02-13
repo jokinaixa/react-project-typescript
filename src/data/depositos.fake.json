@@ -1,0 +1,176 @@
+{
+  "depositos": [
+    {
+      "id": "9",
+      "alias": "PlazoNet 1 año",
+      "aliasEditable": true,
+      "saldo": { "cantidad": 5001.5, "moneda": "EUR" },
+      "numero": "6017435012",
+      "vencimiento": "2018-01-30T09:40:22Z",
+      "categoriaId": "21",
+      "producto": "E01",
+      "titularidadId": "titular",
+      "permisos": [
+        { "nombre": "renovar" },
+        { "nombre": "cancelar" },
+        { "nombre": "verDetalle" },
+        { "nombre": "cambiarCuentaDomiciliacion" }
+      ],
+      "avisos": ["1", "2", "3"]
+    },
+    {
+      "id": "14",
+      "alias": "Ahorro Refrenciado 0083",
+      "aliasEditable": false,
+      "saldo": { "cantidad": 0, "moneda": "EUR" },
+      "actualizandoSaldo": true,
+      "numero": "6237435083",
+      "vencimiento": "2022-02-30T09:40:22Z",
+      "categoriaId": "21",
+      "producto": "P23",
+      "titularidadId": "titular",
+      "permisos": [
+        { "nombre": "verDetalle" },
+        { "nombre": "cambiarCuentaDomiciliacion" }
+      ]
+    },
+    {
+      "id": "15",
+      "alias": "PlazoNet 3 meses",
+      "aliasEditable": true,
+      "saldo": { "cantidad": 3001.0, "moneda": "EUR" },
+      "numero": "6037435003",
+      "vencimiento": "2017-05-30T09:40:22Z",
+      "categoriaId": "21",
+      "producto": "E03",
+      "titularidadId": "autorizado",
+      "permisos": [
+        { "nombre": "renovar" },
+        { "nombre": "cancelar" },
+        { "nombre": "verDetalle" },
+        { "nombre": "cambiarCuentaDomiciliacion" }
+      ]
+    },
+    {
+      "id": "13",
+      "alias": "Depósito a 3 meses en USD",
+      "aliasEditable": true,
+      "saldo": { "cantidad": 5142.5, "moneda": "USD" },
+      "numero": "1234567890",
+      "categoriaId": "21",
+      "titularidadId": "titular",
+      "contraValor": {
+        "cantidad": 5166.5,
+        "moneda": "EUR"
+      }
+    },
+    {
+      "id": "17",
+      "alias": "PlazoNet 4 meses",
+      "aliasEditable": true,
+      "saldo": { "cantidad": 7142.5, "moneda": "EUR" },
+      "numero": "1234567958",
+      "vencimiento": "2017-03-30T08:40:03Z",
+      "categoriaId": "21",
+      "producto": "E03",
+      "titularidadId": "titular",
+      "permisos": [{ "nombre": "cancelar" }, { "nombre": "verDetalle" }]
+    },
+    {
+      "id": "18",
+      "alias": "PlazoNet 6 meses",
+      "aliasEditable": true,
+      "saldo": { "cantidad": 3000, "moneda": "EUR" },
+      "numero": "1234567959",
+      "vencimiento": "2017-07-30T09:40:22Z",
+      "categoriaId": "21",
+      "producto": "E03",
+      "titularidadId": "titular",
+      "permisos": [{ "nombre": "cancelar" }, { "nombre": "verDetalle" }]
+    },
+    {
+      "id": "25",
+      "alias": "PlazoNet 1 Año",
+      "aliasEditable": false,
+      "saldo": { "cantidad": 10000, "moneda": "EUR" },
+      "numero": "6010148062",
+      "vencimiento": "2011-08-26T10:00:00Z",
+      "categoriaId": "21",
+      "producto": "E01",
+      "titularidadId": "titular",
+      "permisos": [{ "nombre": "cancelar" }, { "nombre": "verDetalle" }]
+    },
+    {
+      "id": "37",
+      "alias": "PLAZO 1 AÑO",
+      "aliasEditable": false,
+      "saldo": { "cantidad": 400, "moneda": "EUR" },
+      "numero": "6013264358",
+      "vencimiento": "2012-03-03T11:00:00Z",
+      "categoriaId": "21",
+      "producto": "P01",
+      "titularidadId": "titular",
+      "permisos": [
+        { "nombre": "verDetalle" },
+        { "nombre": "cambiarCuentaDomiciliacion" }
+      ]
+    },
+    {
+      "id": "38",
+      "alias": "PLAZO 1 cancelado",
+      "desactivado": true,
+      "aliasEditable": false,
+      "saldo": { "cantidad": 400, "moneda": "EUR" },
+      "numero": "6013264358",
+      "vencimiento": "2012-03-03T11:00:00Z",
+      "categoriaId": "21",
+      "producto": "P01",
+      "titularidadId": "titular",
+      "permisos": [
+        { "nombre": "verDetalle" },
+        { "nombre": "cambiarCuentaDomiciliacion" }
+      ]
+    },
+    {
+      "id": "39",
+      "alias": "PLAZO 2 cancelado",
+      "desactivado": true,
+      "aliasEditable": false,
+      "saldo": { "cantidad": 400, "moneda": "EUR" },
+      "numero": "6013264358",
+      "vencimiento": "2012-03-03T11:00:00Z",
+      "categoriaId": "21",
+      "producto": "P01",
+      "titularidadId": "titular",
+      "permisos": [
+        { "nombre": "verDetalle" },
+        { "nombre": "cambiarCuentaDomiciliacion" }
+      ]
+    }
+  ],
+  "avisos": [
+    {
+      "id": "1",
+      "mensaje": "Este depósito tiene saldo negativo",
+      "severidad": "error",
+      "tieneDetalle": true,
+      "tipo": "mensaje",
+      "fechaAlta": "2019-07-01T09:40:22Z"
+    },
+    {
+      "id": "2",
+      "mensaje": "Mensaje warning de aviso de depósito",
+      "severidad": "warning",
+      "tipo": "mensaje",
+      "fechaAlta": "2017-07-01T09:40:22Z"
+    },
+    {
+      "id": "3",
+      "mensaje": "Tu depósito '6017435000' esta próximo a caducar y no se va a renovar",
+      "severidad": "warning",
+      "tieneDetalle": true,
+      "fechaAlta": "2019-09-02T09:40:22Z",
+      "tipo": "mensaje"
+    }
+  ]
+}
