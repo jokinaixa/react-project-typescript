@@ -1,9 +1,10 @@
 import React from "react";
+import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import { IPersonaje } from "./IPersonajes";
 
-import Card from "../common/Card";
+import Tarjetas from "../common/Tarjetas";
 
 interface Props {
   personaje: IPersonaje;
@@ -11,18 +12,17 @@ interface Props {
 
 export const Personaje: React.SFC<Props> = ({ personaje }) => {
   return (
-    <Card>
-      <img
-        className="card-img-top"
+    <Tarjetas>
+      <Card.Img variant="top"
         src={personaje.image}
         alt={personaje.name}
       />
-      <div className="card-body">
-        <h4 className="card-title">
+      <Card.Body>
+        <Card.Title>
           <Link to={{ pathname: `/personajeFicha/${personaje.id}` }}>
             {personaje.name}
           </Link>
-        </h4>
+        </Card.Title>
         <div className="card-text">
           <dl className="row">
             <dt className="col-md-5">Species</dt>
@@ -33,8 +33,8 @@ export const Personaje: React.SFC<Props> = ({ personaje }) => {
             <dd className="col-md-7">{personaje?.status}</dd>
           </dl>
         </div>
-      </div>
-    </Card>
+      </Card.Body>
+    </Tarjetas>
   );
 };
 

@@ -5,7 +5,7 @@ import { IPersonaje } from "./IPersonajes";
 import { getPersonaje } from "../../services/personajes";
 import { EpisodioFormat } from "./EpisodioFormat";
 
-import Card from "../common/Card";
+import Card from "../common/Tarjetas";
 
 type PersonajeDetailParams = {
   idPersonaje: string;

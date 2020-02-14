@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
-import Cabecera from "./components/Cabecera";
+import { Layout } from "./components/Layout";
+import { Cabecera } from "./components/Cabecera";
+
 import Home from "./components/Home";
 import Personajes from "./components/personajes/Personajes";
 import PersonajeFicha from "./components/personajes/PersonajeFicha";
@@ -13,11 +15,11 @@ import CardTarjetas from "./components/lk/CardTarjetas";
 
 const App = () => {
   return (
-    <div>
-      <div className="container">
+    <React.Fragment>
+      <Layout>
+        <Cabecera/>
         <Router>
-          <Route path="/" component={Cabecera} />
-          <Route path="/home" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route path="/personajes" component={Personajes} />
           <Route
             path="/personajeFicha/:idPersonaje"
@@ -28,8 +30,8 @@ const App = () => {
           <Route path="/lknet/comboDepositos" component={ComboDepositos} />
           <Route path="/lknet/cardTarjetas" component={CardTarjetas} />
         </Router>
-      </div>
-    </div>
+      </Layout>
+    </React.Fragment>
   );
 };
 

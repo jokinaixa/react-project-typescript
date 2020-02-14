@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Row, Col } from "react-bootstrap";
 
 import { IPersonajes } from "./IPersonajes";
 import { getPersonajes } from "../../services/personajes";
@@ -30,13 +31,13 @@ export const Personajes: React.SFC<IPersonajes> = () => {
         <i className="fa fa-spinner fa-spin fa-3x fa-fw" />
       </div>
 
-      <div className="row row-cols-1 row-cols-md-4">
+      <Row>
         {personajes.results.map((element: any, index: number) => (
-          <div className="col mb-4" key={index}>
+          <Col md={3} key={index}>
             <Personaje personaje={element} />
-          </div>
+          </Col>
         ))}
-      </div>
+      </Row>
     </div>
   );
 };

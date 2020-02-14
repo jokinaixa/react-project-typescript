@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import Combo from "../common/Combo";
+import { Input } from "../common/Input/Input";
 import tarjetasData from "../../data/tarjetas.fake.json";
 import { NumeroTarjetaFormat } from "./NumeroTarjetaFormat";
 
@@ -28,6 +29,7 @@ export const ComboTarjetas: React.SFC = () => {
         ))}
       </Combo>
       <p><NumeroTarjetaFormat numeroTarjeta={valor} /></p>
+      <Input name={"hola"} type={"text"} errorMessage={'prueba'} />
     </div>
   );
 };
