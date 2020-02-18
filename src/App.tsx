@@ -5,6 +5,8 @@ import "./App.css";
 import { Layout } from "./components/Layout";
 import { Cabecera } from "./components/Cabecera";
 
+import Button from "./components/common/Boton/button";
+
 import Home from "./components/Home";
 import Personajes from "./components/personajes/Personajes";
 import PersonajeFicha from "./components/personajes/PersonajeFicha";
@@ -30,6 +32,7 @@ const App = () => {
           <Route path="/lknet/comboDepositos" component={ComboDepositos} />
           <Route path="/lknet/cardTarjetas" component={CardTarjetas} />
         </Router>
+        <Button label="click me please"></Button>
       </Layout>
     </React.Fragment>
   );
